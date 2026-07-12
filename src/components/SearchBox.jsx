@@ -30,7 +30,7 @@ const SearchBox = ({id}) => {
   return (
     <div id="search-bar" className='mt-6' >
         <input value={query} type="search" placeholder='Enter Fruit Names' id={id} className='border-[1.5px] rounded-[5px]' onChange={(e)=>setQuery(e.target.value)} />
-        <div className='max-h-18 w-full mt-2 overflow-auto'>
+        <div className='max-h-50 w-full mt-2 overflow-auto'>
           {results.length>0?
           results.map(item=>(
             <p key={item} id="fruits">{item}</p>
