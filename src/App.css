@@ -182,3 +182,18 @@
     border-right-color: var(--border);
   }
 }
+
+.btn-animation{
+  box-shadow: 0 8px 38px rgb(220, 220, 220);
+  transition: ease-in-out;
+}
+
+.btn-animation:hover{
+  cursor: pointer;
+  background-color: rgb(253, 255, 205);
+  box-shadow: 0 8px 38px rgb(243, 244, 203);
+}
+
+.btn-animation:active{
+  transform: scale(0.8);
+}
